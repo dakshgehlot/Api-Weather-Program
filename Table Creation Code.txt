@@ -1,0 +1,10 @@
+Below is the code for table creation in MySQL. Copy-paste it into a MySQL database.
+
+create table weather_report(
+Date varchar(10) not null not null,
+Current_Temperature_CELSIUS decimal(4,2) not null,
+Feels_Like_CELSIUS decimal(4,2) not null,
+Humidity int(2) not null,
+Time varchar(5) not null,
+City varchar(15) not null);
+
